@@ -1,5 +1,14 @@
+
+$main: #f6a9bd;
+$light: #f4e0e1;
+$white: #ffffff;
+$dark: #f0386b;
+
 .App {
   text-align: center;
+  /* background-image: url("../public/assets/trianglify-lowres.png");
+  background-repeat: no-repeat;
+  background-size: 100%; */
 }
 
 .App-logo {
@@ -7,14 +16,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +30,10 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.main--primary-text, .main--secondary-text, .main--tertiary-text {
+  font-family: "kanit";
+}
+
+.main--primary-text {
+  letter-spacing: 0.1em;
 }
