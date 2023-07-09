@@ -1,5 +1,6 @@
 {
   "name": "blackbird-project",
+  "homepage": "http://https://theblackbirdproject.cl/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
